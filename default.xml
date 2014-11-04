@@ -2,7 +2,15 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="olpc-public"
+           fetch="git://dev.laptop.org" />
+
+  <remote  name="olpc"
+           fetch="git://dev.laptop.org/users/ben" />
+
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-j="4" />
