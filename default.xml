@@ -517,5 +517,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-
+  <project path="vendor/marvell/generic" name="android_vendor_marvell_generic" remote="olpc" revision="refs/heads/android-5.0.0-xo4" />
+  <project path="vendor/marvell/external" name="android_vendor_marvell_external" remote="olpc" revision="refs/heads/android-5.0.0-xo4" />
+  <project path="vendor/olpc/xo4" name="android_vendor_olpc_xo4" remote="olpc" revision="refs/heads/android-5.0.0-xo4" />
 </manifest>
