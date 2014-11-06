@@ -26,6 +26,7 @@
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="kernel" name="olpc-kernel" remote="olpc-public" revision="refs/heads/arm-3.5-android" />
+  <project path="manifest" name="android_manifest" remote="olpc" revision="refs/heads/android-5.0.0-xo4" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
