@@ -32,7 +32,7 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
-  <project path="device/olpc/xo4" name="device_olpc_xo4" remote="olpc" revision="refs/heads/android-5.0.0-xo4" />
+  <project path="device/olpc/xo4" name="android_device_olpc_xo4" remote="olpc" revision="refs/heads/android-5.0.0-xo4" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
