@@ -12,7 +12,7 @@
            fetch="git://dev.laptop.org/users/ben" />
 
   <remote  name="github"
-           fetch="https://github.com/suyouxin" />
+           fetch="git@github.com:suyouxin" />
 
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
