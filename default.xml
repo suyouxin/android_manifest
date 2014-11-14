@@ -11,6 +11,9 @@
   <remote  name="olpc"
            fetch="git://dev.laptop.org/users/ben" />
 
+  <remote  name="github"
+           fetch=".." />
+
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-j="4" />
@@ -26,13 +29,13 @@
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="kernel" name="olpc-kernel" remote="olpc-public" revision="refs/heads/arm-3.5-android" />
-  <project path="manifest" name="android_manifest" remote="olpc" revision="refs/heads/android-5.0.0-xo4" />
+  <project path="manifest" name="suyouxin/android_manifest" remote="github" revision="refs/heads/android-5.0.0-xo4" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
-  <project path="device/olpc/xo4" name="android_device_olpc_xo4" remote="olpc" revision="refs/heads/android-5.0.0-xo4" />
+  <project path="device/olpc/xo4" name="suyouxin/android_device_olpc_xo4" remote="github" revision="refs/heads/android-5.0.0-xo4" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
