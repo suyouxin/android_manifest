@@ -499,7 +499,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="suyouxin/system_core" groups="pdk" remote="github" revision="refs/heads/android-5.0.0-xo4" />
+  <project path="system/core" name="suyouxin/android_system_core" groups="pdk" remote="github" revision="refs/heads/android-5.0.0-xo4" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
