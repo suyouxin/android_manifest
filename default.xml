@@ -18,7 +18,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" groups="pdk,tradefed" remote="github" revision="refs/heads/android-5.0.0-xo4" >
+  <project path="build" name="suyouxin/android_build" groups="pdk,tradefed" remote="github" revision="refs/heads/android-5.0.0-xo4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
