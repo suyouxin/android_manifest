@@ -293,7 +293,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="suyouxin/frameworks_base" groups="pdk-cw-fs" remote="github" revision="refs/heads/android-5.0.0-xo4" />
+  <project path="frameworks/base" name="suyouxin/android_frameworks_base" groups="pdk-cw-fs" remote="github" revision="refs/heads/android-5.0.0-xo4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -302,7 +302,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="suyouxin/frameworks_native" groups="pdk" remote="github" revision="refs/heads/android-5.0.0-xo4" />
+  <project path="frameworks/native" name="suyouxin/android_frameworks_native" groups="pdk" remote="github" revision="refs/heads/android-5.0.0-xo4" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -347,7 +347,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="suyouxin/hardware_libhardware" groups="pdk" remote="github" revision="refs/heads/android-5.0.0-xo4" />
+  <project path="hardware/libhardware" name="suyouxin/android_hardware_libhardware" groups="pdk" remote="github" revision="refs/heads/android-5.0.0-xo4" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
