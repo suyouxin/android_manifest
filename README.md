@@ -1,4 +1,4 @@
-android_manifest
+Lollipop for OLPC XO-4 Touch
 ================
 Android 5.0 for XO-4 is in active development status. Any contribution would be much appreciated.
 
